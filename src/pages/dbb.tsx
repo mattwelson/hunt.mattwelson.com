@@ -9,6 +9,11 @@ const IndexPage: React.FC<PageProps> = () => {
     <Layout>
       <h1 className="font-bond text-primary text-5xl">Nice work!</h1>
       <p className="text-secondary text-xl">Next up:</p>
+      <progress
+        className="progress progress-primary w-56 justify-self-center"
+        value="50"
+        max="100"
+      ></progress>
       <Clue
         clue="The first step in any trip is to put me on"
         secondClue="I'm made for walking, and that's just what I'll do"

@@ -9,6 +9,11 @@ const IndexPage: React.FC<PageProps> = () => {
     <Layout>
       <h1 className="font-bond text-primary text-5xl">Happy Birthday!</h1>
       <p className="text-secondary text-xl">Lots of love from Addie and Me!</p>
+      <progress
+        className="progress progress-primary w-56 justify-self-center"
+        value="100"
+        max="100"
+      ></progress>
       <div className="grid justify-center">
         <FaBirthdayCake className="text-secondary text-8xl" />
       </div>
