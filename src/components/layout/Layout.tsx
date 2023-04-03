@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
-import { BsBinocularsFill } from "react-icons/bs";
+import { BsBinocularsFill, BsFillBalloonHeartFill } from "react-icons/bs";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -23,7 +23,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         {children}
       </main>
       <footer className="footer p-10 bg-neutral text-neutral-content">
-        <div className="max-w-4xl mx-auto">Some footer text</div>
+        <div className="max-w-4xl mx-auto justify-center justify-items-center grid">
+          <div>Love and Cake</div>
+          <BsFillBalloonHeartFill className="text-white text-3xl" />
+        </div>
       </footer>
     </div>
   );

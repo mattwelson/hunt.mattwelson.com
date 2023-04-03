@@ -6,7 +6,7 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
       <h1 className="font-bond text-primary text-5xl">Happy Birthday Alice</h1>
-      <p className="text-secondary">You're the best</p>
+      <p className="text-secondary text-xl">You're the best</p>
     </Layout>
   );
 };
