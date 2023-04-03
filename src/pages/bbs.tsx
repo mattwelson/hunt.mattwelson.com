@@ -11,7 +11,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <p className="text-secondary text-xl">Final clue:</p>
       <Clue
         clue="Don't forget me when you head out on an adventure"
-        secondClue="You wouldn't want to freeze at night"
+        secondClue="You wouldn't want to freeze at McIntosh Hut"
       />
     </Layout>
   );
